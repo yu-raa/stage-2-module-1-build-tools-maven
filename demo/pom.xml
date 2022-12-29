@@ -10,14 +10,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.epam.demo</groupId>
-    <artifactId>Utils</artifactId>
-
+    <artifactId>demo</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.epam.utils</groupId>
-            <artifactId>StringUtils</artifactId>
-            <version>1.0.0</version>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
 
         <dependency>
